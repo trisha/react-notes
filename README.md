@@ -22,6 +22,11 @@ To create a new github branch,
 In bottom left of VSCode, you can see which branch you're on as well as the names of your other branches.
 
 
+[Group git notes](https://hackmd.io/8eIt6vTgS5q3ZJakZy9SpQ?view):
+
+https://hackmd.io/8eIt6vTgS5q3ZJakZy9SpQ?view
+
+
 Group git process from Dave Stach, where origin is your forked repo and upstream is the original repo: 
 
 1. git checkout -b mybranchname // to create and checkout to dev branch
