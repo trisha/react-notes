@@ -26,20 +26,33 @@ In bottom left of VSCode, you can see which branch you're on as well as the name
 
 https://hackmd.io/8eIt6vTgS5q3ZJakZy9SpQ?view
 
+HOW TO GROUP GIT: 
 
-Group git process from Dave Stach, where origin is your forked repo and upstream is the original repo: 
+- Local repo = On your computer
 
-1. git checkout -b mybranchname // to create and checkout to dev branch
-2. *work on your project *
-3. commit changes
-4. git push origin mybranchname
-5. git checkout main
-6. git merge mybranchname
-7. git push origin main
-8. go on github and submit a pull request
-9. *git person approves request *
-10. git pull upstream main (to update your local)
-11. git push origin main (to update your remote if there were changes done by other group members)
+- Remote repo = Github.com repo
+
+- Origin = Your forked and cloned remote repo
+
+- Upstream = The source of your remote repo, i.e. the manager's repo
+
+After forking and creating a `git clone [forked URL]` on your computer...
+1. `git remote add upstream [upstream URL]`
+2. `git remote -v` *To ensure you have an origin and a now a remote link.*
+3. `git checkout -b [mybranchname]` 
+4. \* Work on your project *
+5. Push changes to your remote repo: `git add .`, `git commit -m "Commit message"`, `git push`
+6. Go to github.com and submit a pull request from your development branch to the manager's main branch
+7. Manager accepts request
+
+*Then, manager merges a pull request:*
+
+8. `git checkout main`
+9. `git pull upstream main` (Manager uses `git pull origin main`)
+10. `git push origin main` (Manager doesn't need to do this step)
+11. `git checkout [mybranchname]`
+12. `git merge main`
+13. `git push`
 
 
 [How to add commit messages when merging branches](https://gist.github.com/kenandersen/2042103942473af82dd2):
