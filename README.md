@@ -38,7 +38,7 @@ HOW TO GROUP GIT:
 
 After forking and creating a `git clone [forked URL]` on your computer...
 1. `git remote add upstream [upstream URL]`
-2. `git remote -v` *To ensure you have an origin and a now a remote link.*
+2. `git remote -v` *To ensure you have an origin and a now an upstream link.*
 3. `git checkout -b [mybranchname]` 
 4. \* Work on your project *
 5. Push changes to your remote repo: `git add .`, `git commit -m "Commit message"`, `git push`
