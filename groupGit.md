@@ -9,10 +9,10 @@ HOW TO GROUP GIT:
 
 - [Remote] Origin = Where you 'git clone'd your repo from.
 
-Assumig that everyone has been invited to collaborate on the project so they have push permissions, after you `git clone [URL]` on your computer, do the below in your terminal...
+Assuming that everyone has been invited to collaborate on the project so they have push permissions, after you `git clone [URL]` on your computer, do the below in your terminal...
 1. `git checkout -b [mybranchname]` to create a local development branch to work on.
 2. \* Work on your project *
-3. Push changes to your remote repo's development branch: `git add .` (or `git add -A to add everything in current file and below`), `git commit -m "Commit message"`, `git push origin [mybranchname]`
+3. Push changes to your remote repo's development branch: `git add .` (or `git add -A` to add everything in current file and below), `git commit -m "Commit message"`, `git push origin [mybranchname]`
 4. Go to the remote repo on github.com and submit a pull request from your development branch to the main branch
 5. Resolve any merge conflicts and let your teammates know when you've merged a pull request.
 
