@@ -3,12 +3,19 @@ Notes on everything we're learning about React and creating a React app
 
 
 npx create-react-app <name-of-folder> // Doesn't take capitalized letters, and npx allows you to install something without installing it/downloading it locally.
+Above now no longer works. Have to run `npm -g create-react-app` and then you can run `npx create-react-app sitename`
+Source: https://github.com/facebook/create-react-app/issues/10495
+Above solution no longer works. Use below:
+`npx create-react-app@latest your-project-name --use-npm`
+From: https://stackoverflow.com/questions/64963796/create-react-app-is-not-working-since-version-4-0-1
+
+`npm start` to run 
 
 We create components that we export. Each component returns something that is contained within one parent set of tags. 
 
-Within our App.js, we can pass through poperties such as this.props within a component.
+Within our App.js, we can pass through properties such as this.props within a component.
 
-Constructors are something that are added to classes. Constructo method allows us to run new instances of a class 
+Constructors are something that are added to classes. Constructor method allows us to run new instances of a class 
 
 this.state is designed to change/react to user process and flow thru application, which is why we set it in constructor
 
@@ -97,7 +104,7 @@ brew services start postgresql
 brew services list (to see what's active)
 
 
-MONGODB
+# MONGODB
 
 show dbs // Show databases
 
