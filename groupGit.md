@@ -16,13 +16,13 @@ Assuming that everyone has been invited to collaborate on the project so they ha
 4. Go to the remote repo on github.com and submit a pull request from your development branch to the main branch
 5. Resolve any merge conflicts and let your teammates know when you've merged a pull request.
 
-*Then, everyone (including the person who just merged their PR) on the team pulls from the updated main branch to update their local main branch.*
+*Then, everyone (including the person who just merged their PR) on the team pulls from the updated <main> branch to update their local <main> branch.*
 
-6. `git checkout main`
-7. `git pull origin main`
+6. `git checkout <main>`
+7. `git pull origin <main>`
 8. `git add .`, `git commit -m`
 9. `git checkout [mybranchname]`
-10. `git merge main`
+10. `git merge <main>`
 11. `git add .`, `git commit -m`
 
 Reminder: You are NEVER coding or making direct edits to ANY main branch. The only way to modify the main branch is through pull requests and merge conflict resolutions when merging pull requests.
