@@ -41,9 +41,14 @@ Reminder: You are NEVER coding or making direct edits to ANY main branch. The on
 // 2. Hit "esc" then type ":wq" and hit enter to save your choice. Viola!
 
 
-# How to undo local changes to revert to your most recent commit:
+### How to undo local changes to revert to your most recent commit:
 `git reset --hard`
 https://docs.gitlab.com/ee/topics/git/numerous_undo_possibilities_in_git/#undo-local-changes
 
 Github notes from Dave: 
 http://sethrobertson.github.io/GitFixUm/fixup.html
+
+  
+ ### Setting GitHub upstream
+ `git config --global push.default current`
+[Source]([url](https://stackoverflow.com/a/70015830))
