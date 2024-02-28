@@ -52,3 +52,6 @@ http://sethrobertson.github.io/GitFixUm/fixup.html
  ### Setting GitHub upstream
  `git config --global push.default current`
 [Source]([url](https://stackoverflow.com/a/70015830))
+
+### Setting GitHub upstream per repository
+`git push --set-upstream origin HEAD`
